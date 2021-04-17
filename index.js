@@ -14,7 +14,7 @@ app.use("/api/tasks", require("./routes/Tasks"));
 
 mongoose
   .connect(
-    "mongodb+srv://admin:sensen45@cluster0.rty0n.mongodb.net/projectapp?retryWrites=true&w=majority",
+    "",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
